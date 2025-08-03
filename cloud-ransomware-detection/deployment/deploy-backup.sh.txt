@@ -1,0 +1,5 @@
+gcloud functions deploy backup-files \
+--runtime python39 \
+--trigger-topic daily-backup-trigger \
+--entry-point backup_files \
+--memory 256MB

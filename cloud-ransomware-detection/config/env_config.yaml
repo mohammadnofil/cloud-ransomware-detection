@@ -1,0 +1,51 @@
+alert_topic: "ransomware-alerts"
+backup_bucket: "ransomware-backup-bucket"
+logging_level: "INFO"
+notification_email: "nofil3110@gmail.com"
+
+Project and environment details
+project_id: "ransomware-detection-456017"
+region: "us-central1"
+
+Buckets and storage
+input_bucket: "bucket-ransomware-detection-456017"
+backup_bucket: "ransomware-backup-bucket"
+quarantine_bucket: "quarantine-infected-files"
+
+Pub/Sub topics
+alert_topic: "ransomware-alerts"
+backup_trigger_topic: "daily-backup-trigger"
+
+Detection parameters
+ransomware_signatures:
+  - ".encrypted"
+  - ".locked"
+  - ".ransom"
+  - "READ_ME.txt"
+  - "HOW_TO_DECRYPT.txt"
+scan_extensions:
+  - ".doc"
+  - ".xls"
+  - ".pdf"
+  - ".zip"
+  - ".exe"
+max_scan_file_size_mb: 50
+
+Backup configuration
+backup_schedule: "0 0 * * *"  # Every day at 12 AM (cron format)
+retention_days: 30
+
+Isolation policy
+firewall_tag_isolate: "isolate"
+network_tag_alert: "alert-zone"
+timeout_seconds: 60
+
+Notification preferences
+notification_email: "nofil3110@gmai;.com"
+send_email_alerts: true
+send_slack_alerts: true
+
+Security settings
+enable_iam_audit: true
+enable_vpc_service_controls: true
+restrict_external_access: true

@@ -1,0 +1,56 @@
+[
+  {
+    "insertId": "bxp3mbfnz9713",
+    "jsonPayload": {
+      "logging.googleapis.com/diagnostic": {
+        "instrumentation_source": [
+          {
+            "version": "3.12.0",
+            "name": "python"
+          }
+        ]
+      }
+    },
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "function_name": "ransomware-detection",
+        "project_id": "ransomware-detection-456017"
+      }
+    },
+    "timestamp": "2025-07-31T12:16:56.904687318Z",
+    "logName": "projects/ransomware-detection-456017/logs/ransomware-detection",
+    "receiveTimestamp": "2025-07-31T12:16:56.904687318Z"
+  },
+  {
+    "textPayload": "Ransomware detected: test3.locked",
+    "insertId": "bxp3mbfnz9714",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "ransomware-detection",
+        "project_id": "ransomware-detection-456017",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2025-07-31T12:16:56.904687318Z",
+    "logName": "projects/ransomware-detection-456017/logs/ransomware-detection",
+    "receiveTimestamp": "2025-07-31T12:16:56.904687318Z"
+  },
+  {
+    "textPayload": "Ransomware detected: test4.locked",
+    "insertId": "17bti3wf6j64iv",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "ransomware-detection-456017",
+        "region": "us-central1",
+        "function_name": "ransomware-detection"
+      }
+    },
+    "timestamp": "2025-07-31T12:17:16.409413298Z",
+    "logName": "projects/ransomware-detection-456017/logs/ransomware-detection",
+    "receiveTimestamp": "2025-07-31T12:17:16.409413298Z"
+  }
+]
