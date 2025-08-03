@@ -20,7 +20,7 @@ This project presents the design and implementation of an automated ransomware d
 10. [Limitations and Future Work](https://claude.ai/chat/4007dc76-9b3d-4e32-af78-1a3ea9c46c81#limitations-and-future-work)  
 11. [Conclusion](https://claude.ai/chat/4007dc76-9b3d-4e32-af78-1a3ea9c46c81#conclusion)  
 12. [References](https://claude.ai/chat/4007dc76-9b3d-4e32-af78-1a3ea9c46c81#references)  
-13. [Appendices](https://claude.ai/chat/4007dc76-9b3d-4e32-af78-1a3ea9c46c81#appendices)
+13. [Appendices]
 
 ## 
 
