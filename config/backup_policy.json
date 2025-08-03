@@ -1,0 +1,14 @@
+{
+  "backup_frequency": "daily",
+  "retention_days": 30,
+  "backup_bucket": "ransomware-backup-bucket",
+  "include_paths": [
+    "/home/data",
+    "/var/log",
+    "/etc"
+  ],
+  "exclude_extensions": [
+    ".tmp",
+    ".log"
+  ]
+}

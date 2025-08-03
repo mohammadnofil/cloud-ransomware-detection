@@ -1,0 +1,6 @@
+gcloud functions deploy ransomware-detection \
+--runtime python39 \
+--trigger-resource bucket-ransomware-detection-456017 \
+--trigger-event google.storage.object.finalize \
+--entry-point detect_ransomware \
+--memory 256MB

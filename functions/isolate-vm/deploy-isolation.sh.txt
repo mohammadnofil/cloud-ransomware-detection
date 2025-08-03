@@ -1,0 +1,6 @@
+gcloud functions deploy isolate-vm \
+--runtime python39 \
+--trigger-topic ransomware-alerts \
+--entry-point isolate_vm \
+--memory 256MB \
+--timeout 60s
