@@ -8,19 +8,19 @@ This project presents the design and implementation of an automated ransomware d
 
 ## **Table of Contents**
 
-1. [Introduction](https://claude.ai/chat/4007dc76-9b3d-4e32-af78-1a3ea9c46c81#introduction)  
-2. [Literature Review](https://claude.ai/chat/4007dc76-9b3d-4e32-af78-1a3ea9c46c81#literature-review)  
-3. [System Requirements](https://claude.ai/chat/4007dc76-9b3d-4e32-af78-1a3ea9c46c81#system-requirements)  
-4. [System Architecture](https://claude.ai/chat/4007dc76-9b3d-4e32-af78-1a3ea9c46c81#system-architecture)  
-5. [Implementation Details](https://claude.ai/chat/4007dc76-9b3d-4e32-af78-1a3ea9c46c81#implementation-details)  
-6. [Installation and Configuration](https://claude.ai/chat/4007dc76-9b3d-4e32-af78-1a3ea9c46c81#installation-and-configuration)  
-7. [Testing and Validation](https://claude.ai/chat/4007dc76-9b3d-4e32-af78-1a3ea9c46c81#testing-and-validation)  
-8. [Results and Analysis](https://claude.ai/chat/4007dc76-9b3d-4e32-af78-1a3ea9c46c81#results-and-analysis)  
-9. [Security Considerations](https://claude.ai/chat/4007dc76-9b3d-4e32-af78-1a3ea9c46c81#security-considerations)  
-10. [Limitations and Future Work](https://claude.ai/chat/4007dc76-9b3d-4e32-af78-1a3ea9c46c81#limitations-and-future-work)  
-11. [Conclusion](https://claude.ai/chat/4007dc76-9b3d-4e32-af78-1a3ea9c46c81#conclusion)  
-12. [References](https://claude.ai/chat/4007dc76-9b3d-4e32-af78-1a3ea9c46c81#references)  
-13. [Appendices]
+1. Introduction  
+2. Literature Review 
+3. System Requirements  
+4. System Architecture 
+5. Implementation Details  
+6. Installation and Configuration  
+7. Testing and Validation 
+8. Results and Analysis  
+9. Security Considerations  
+10. Limitations and Future Work  
+11. Conclusion  
+12. References  
+13. Appendices
 
 ## 
 
